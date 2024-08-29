@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.progress-bar {
+  margin-top: 20px;
+  height: 30px;
+  width: 100%;
+  background-color: #ddd;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+}
+
+.progress-bar span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}

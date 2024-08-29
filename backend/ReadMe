@@ -1,0 +1,32 @@
+Overview
+The Training Module Application is a full-stack application designed to provide an interactive training experience for users. Users can watch videos in sequence and track their progress throughout the training module. The application uses React.js for the frontend, Express.js for the backend, and MongoDB for data storage.
+
+Features
+Video Playback: Watch training videos in sequence.
+Progress Tracking: Automatically track and update user progress.
+Admin Functionality: Add new videos to the training module.
+Responsive Design: Works on various devices and screen sizes.
+Technologies Used
+Frontend: React.js, Video.js for video playback.
+Backend: Express.js, Node.js.
+Database: MongoDB.
+API: Axios for API calls to the backend.
+Styling: CSS (with Video.js default styles).
+Getting Started
+To run this application locally, follow the instructions below.
+
+Prerequisites
+Make sure you have the following software installed:
+
+Node.js (v14 or above)
+MongoDB (locally or a remote instance)
+Git
+Usage
+Login or Register: Users need to log in or register to access the training module.
+Watch Videos: Navigate through the video training modules and watch videos sequentially.
+Track Progress: Your progress is automatically saved as you watch videos.
+API Endpoints
+GET /api/videos: Fetch all videos.
+POST /api/videos: Add a new video (admin only).
+GET /api/progress/:userId: Fetch user progress.
+POST /api/progress: Update or create user progress.
